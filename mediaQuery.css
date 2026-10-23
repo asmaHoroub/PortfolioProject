@@ -494,6 +494,9 @@
     .footercontact a img {
         margin-left: 10px;
     }
+    .footercontact{
+        justify-self: end;
+    }
 }
 
 /* =========================
