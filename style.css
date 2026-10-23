@@ -248,6 +248,7 @@ header a img {
   margin-bottom: 10px;
 
 } */
+
 #personalinfo img {
     width: 25px;
     height: 25px;
@@ -255,7 +256,7 @@ header a img {
     border-radius: 15px;
     margin-right: 5px;
     padding: 4px;
-    transition: transform 2sec ease;
+
 }
 
 #personalinfo img:hover {
