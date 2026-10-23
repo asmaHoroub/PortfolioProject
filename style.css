@@ -592,18 +592,28 @@ footer {
     color: rgb(205, 203, 203);
     margin: 0;
     padding: 0;
+    height: fit-content;
 
 }
 
 footer nav {
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
+}
+#footerflex{
+    display: flex;
+    justify-content: space-between;
+   padding-top: 30px;
+   margin-right: 10px;;
+}
+#footerflex div{
+margin-left: 10px;
 }
 
 .footercontact {
     justify-self: end;
     align-self: flex-end;
-    margin-right: 20px;
+  
 }
 
 .footercontact a img {
@@ -617,6 +627,7 @@ footer nav {
 
 .footercontact a {
     margin-right: 5px;
+    margin-left: 5px;
 }
 
 .footercontact a img:hover {
@@ -629,17 +640,12 @@ footer nav {
     border-radius: 2px;
 }
 
-.footercontact {
-    margin-top: 5px;
-    margin-bottom: 20px;
-
-}
 
 footer hr {
     border: none;
     height: 2px;
     width: 70%;
-    margin: 30px auto;
+ 
     background: linear-gradient(to right,
             transparent,
             #6C63A8,

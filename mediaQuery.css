@@ -266,7 +266,15 @@
     }
 
     .footercontact a img {
-        margin-left: 10px;
+        width: 20px !important;
+        height: 20px !important;
+        display: inline;
+   
+    }
+    .footercontact {
+        margin: 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 
@@ -492,11 +500,15 @@
         font-size: 13px;
     }
 
-    .footercontact a img {
-        margin-left: 10px;
+   .footercontact a img {
+        width: 20px !important;
+        height: 20px !important;
+      
+    
+   
     }
     .footercontact{
-        justify-self: end;
+        justify-self: end;    margin-right: 2px;
     }
 }
 
@@ -648,7 +660,16 @@
 
 }
 
+.footercontact a img {
+        width: 25px !important;
+        height: 25px !important;
 
+        display: inline;
+   
+    }
+    .footercontact{
+        margin-right: 2px;
+    }
 /* =========================
    laptop
    769px - 1024px
