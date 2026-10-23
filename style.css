@@ -40,10 +40,10 @@ header section {
 }
 
 #toolbar {
+     background: linear-gradient(90deg, rgba(9, 4, 43, 1) 25%, rgba(25, 25, 107, 1) 53%, rgba(93, 37, 128, 1) 100%);
     display: flex;
     justify-content: space-between;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
-
     color: beige;
     width: 100%;
 
@@ -134,6 +134,28 @@ header a img {
 
 }
 
+#asTyp{
+    font-size: 70px; margin-top: 4px; margin-left: 26px;margin-bottom: 0px; color: #FFD9EE;
+
+  background: linear-gradient(
+        90deg,
+        #534afe,
+        #d56cfc,
+        #261bec
+    );
+
+    background-size: 200% auto;
+    color: transparent;
+    background-clip: text;
+
+    animation: gradient 3s linear infinite;
+}
+@keyframes gradient {
+    to {
+        background-position: 200% center;
+    }
+}
+
 #intro {
     grid-column: 1;
     color: white;
@@ -146,6 +168,7 @@ header a img {
     width: 100%;
     bottom: 0;
     justify-content: left;
+    padding-top: 70px;
 
 }
 
