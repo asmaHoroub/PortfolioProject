@@ -1,5 +1,6 @@
 :root {
-    --bar-h: 72px;   /* height of the fixed top bar (changed per screen size in mediaQuery.css) */
+    --bar-h: 72px;   /* height of the fixed top bar (changed per screen size in mediaQuery.css) 
+    we defint the variable --bar-h*/
 }
 
 * {
@@ -80,7 +81,7 @@ header section {
 
 #toolbar h3 {
     margin: 0;
-    font-size: clamp(16px, 4.5vw, 22px);   /* scales with the screen */
+    font-size: 20px;  
     white-space: nowrap;
 }
 
@@ -118,7 +119,7 @@ header section {
     box-shadow: 0 6px 16px rgba(147, 147, 244, 0.55);
  
 }
-/* ===== END TOOLBAR ===== */
+
 
 
 .contact {
